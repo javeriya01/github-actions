@@ -9,7 +9,7 @@ jobs:
         steps:
         - name: checkout Repo
           uses: actions/checkout@v5
-          
+
         - name: welcome msg 
           run: echo "my first job"
 
@@ -17,4 +17,4 @@ jobs:
           run: ls
 
         - name: read file
-          run: cat READ.md
+          run: cat README.md
